@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your first spec</title>
+    <link rel="stylesheet" href="lib/jasmine.css">
+</head>
+
+<body>
+    <script src="lib/jasmine.js"></script>
+    <script src="lib/jasmine-html.js"></script>
+    <script src="lib/boot0.js"></script>
+    <script src="lib/boot1.js"></script>
+    <script>
+        it('should have the correct title', function () {
+            expect(document.title).toBe('Your first spec');
+        });
+    </script>
+</body>
+
+</html>
